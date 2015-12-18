@@ -1,4 +1,6 @@
 <?php
+  #
+  header('Content-Type: text/plain');
 
   // longer, better way
   $http_client_ip       = $_SERVER['HTTP_CLIENT_IP'];        // Internet ip address
