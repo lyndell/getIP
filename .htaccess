@@ -1,5 +1,16 @@
+AddDefaultCharset UTF-8
+AddLanguage en-US .html .htm .css .js
+
 IndexIgnore .??* *~ *# HEADER* README* RCS CVS *,v *,t
 IndexIgnore .nojekyll .git
+
+Header add X-LJR0 ""
+Header add X-LJR1 "Copyright 2015 Lyndell Rottmann"
+Header add X-LJR2 "http://www.Lyndell.US"
+Header add X-LJR3 ""
+
+Header add X-LJR- "Apache response time:  %D microseconds "
+Header add X-LJR_ ""
 
 
 Order Allow,Deny
