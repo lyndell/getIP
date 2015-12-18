@@ -1,8 +1,14 @@
-Options -Indexes 
+Options +Indexes 
+IndexIgnore .??* *~ *# HEADER* README* RCS CVS *,v *,t
+
 
 Order Allow,Deny
 allow from all
 <Files .git>
-   deny from all
+  deny from all
+</Files>
+
+<Files .htaccess>
+	deny from all
 </Files>
 
