@@ -1,4 +1,4 @@
-AddDefaultCharset UTF-8
+AddDefaultCharset US-ASCII
 AddLanguage en-US .html .htm .css .js
 
 IndexIgnore .??* *~ *# HEADER* README* RCS CVS *,v *,t
