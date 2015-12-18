@@ -1,0 +1,8 @@
+Options -Indexes 
+
+Order Allow,Deny
+allow from all
+<Files .git>
+   deny from all
+</Files>
+
